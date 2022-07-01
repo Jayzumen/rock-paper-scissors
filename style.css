@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+}
+
+#container {
+  margin-top: 10rem;
+  height: 100%;
+  width: 100%;
+}
+
+#buttons {
+  height: 50%;
+}
+
+.playBtn {
+  padding: 10px;
+  margin: 30px;
+  font-size: 100px;
+  background-color: beige;
+  border: 2px solid gray;
+}
+
+button {
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#resultContainer {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#score,
+#hands,
+#result {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#score {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#endGameBtn {
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid red;
+  font-size: 100px;
+  margin-bottom: 15px;
+}
